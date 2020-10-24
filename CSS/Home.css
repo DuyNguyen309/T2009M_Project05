@@ -1,0 +1,56 @@
+*{
+    font-family: 'Cabin', sans-serif;
+    box-sizing: border-box;
+}
+.container-main01 h3{
+    font-family: 'Montez', cursive;
+    font-size: 63px;
+    margin: 0 0 10px;
+}
+.container-main01 p{
+    font-size: 14px;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 700;
+}
+.menu-item h3{
+    text-align: center;
+}
+.about-menu{
+    text-align: center;
+    font-size: 15px;
+    margin: 0 0 10px;
+}
+.note-picture{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.bakery-items{
+    padding-bottom: 55px;
+}
+.specialty-cakes{
+    background-image: url("../imgs/wood-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #f2f2f2;
+}
+.about-specialty{
+    margin-top: 75px;
+}
+.about-specialty h3{
+    text-align: center;
+    font-size: 60px;
+    margin: 0 0 35px;
+    font-family: 'Montez', cursive;
+}
+.about-specialty p{
+    text-align: center;
+    font-size: 15px;
+    margin: 0 0 25px;
+}
+.button{
+    margin: 10px 0 0;
+    padding: 9px 15px 7px;
+    background-color: #0A8446;
+    color: #f2f2f2;
+}
