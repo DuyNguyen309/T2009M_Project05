@@ -12,10 +12,15 @@ body{
     width:100%;
     float:left;
 }
+/*MAIN 03*/
+.main03{
+    overflow:hidden;
+}
 /*ACHIEVEMENT CONTENT*/
 .achievement-content{
     color:#333333;
     position:relative;
+    background-color:#ffffff;
 }
 .achievement-content::before{
     content:"";
