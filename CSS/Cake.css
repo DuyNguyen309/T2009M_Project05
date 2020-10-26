@@ -170,6 +170,7 @@ body{
 /*SUBSCRIBE CONTENT*/
 .subscribe-content{
     padding:40px 0;
+    background-color:white;
 }
 .subscribe-content h3{
     font-size:23px;
