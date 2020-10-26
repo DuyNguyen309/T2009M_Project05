@@ -15,6 +15,31 @@ body{
 /*ACHIEVEMENT CONTENT*/
 .achievement-content{
     color:#333333;
+    position:relative;
+}
+.achievement-content::before{
+    content:"";
+    display:block;
+    position:absolute;
+    height:54px;
+    top:-54px;
+    left:0;
+    right:0;
+    z-index:1;
+    background-image:url("../imgs/border-top.png");
+    background-repeat:repeat-x;
+}
+.achievement-content::after{
+    content:"";
+    display:block;
+    position:absolute;
+    height:54px;
+    bottom:-54px;
+    left:0;
+    right:0;
+    z-index:1;
+    background-image:url("../imgs/border-bottom.png");
+    background-repeat:repeat-x;
 }
 .achievement-block{
     text-align:center;
@@ -33,7 +58,7 @@ body{
     width:140px;
     background-color:#eaeaea;
     top:12px;
-    right:13px;
+    right:19px;
 }
 .achievement-block p::after{
     content:"";
@@ -59,7 +84,7 @@ body{
 /*HISTORY CONTENT*/
 .history-content{
     color:white;
-    background-image:url("../../T2009M_AptechP/imgs/wood.jpg");
+    background-image:url("../imgs/wood.jpg");
     padding:50px 0;
 }
 .history-content img{
@@ -129,6 +154,7 @@ body{
     top:50%;
     left:50%;
     transform:translate(-50%,-50%);
+    pointer-events:none;
 }
 .creation-content h3{
     position:absolute;
@@ -139,10 +165,12 @@ body{
     top:50%;
     left:50%;
     transform:translate(-50%,-50%);
+    pointer-events:none;
 }
 /*SUBSCRIBE CONTENT*/
 .subscribe-content{
     padding:40px 0;
+    background-color:white;
 }
 .subscribe-content h3{
     font-size:23px;
