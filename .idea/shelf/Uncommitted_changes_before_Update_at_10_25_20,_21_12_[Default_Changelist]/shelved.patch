@@ -1,0 +1,18 @@
+Index: Home.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <title>Home - Alessi Bakery</title>\n    <meta charset=\"UTF-8\"/>\n    <meta name=\"description\" content=\"Cake Website\"/>\n    <meta name=\"author\" content=\"DuyNguyen\"/>\n    <meta name=\"keywords\" content=\"cake\"/>\n    <meta http-equiv=\"refresh\" content=\"180\"/>\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"/>\n    <base href=\"Cake.html\" target=\"_top\"/>\n    <link href=\"https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Montez&display=swap\" rel=\"stylesheet\">\n    <link rel=\"stylesheet\" href=\"https://use.fontawesome.com/releases/v5.6.3/css/all.css\">\n</head>\n<body>\n<header class=\"section header\">\n\n</header>\n<nav class=\"section navigation\">\n\n</nav>\n<section class=\"section main\">\n    <div class=\"main01\">\n\n    </div>\n    <div class=\"main02\">\n\n    </div>\n    <div class=\"main03\">\n\n    </div>\n</section>\n<footer class=\"section footer\">\n\n</footer>\n</body>\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Home.html	(revision 9169e9c67061ec0d941f5834f50a62c6ace3f607)
++++ Home.html	(date 1603635151973)
+@@ -13,7 +13,7 @@
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+ </head>
+ <body>
+-<header class="section header">
++<header>
+ 
+ </header>
+ <nav class="section navigation">
