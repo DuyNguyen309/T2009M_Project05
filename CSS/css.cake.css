@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-size:15px;
+    line-height:23px;
+    font-family: 'Cabin', sans-serif;
+}
+div{
+    display: block;
+}
+img{
+    width: auto;
+}
+
+.slick-track{
+    opacity: 1;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.cake-sp{
+    margin: auto;
+    border: #e9e7e7 10px solid;
+    padding: 20px 0;
+    background-color: #f1f0f0;
+
+}
+.featured-menu-item{
+    pointer-events: none;
+}
+.featured-menu-item__title{
+    color: #cc0000;
+    display: block;
+    text-align: center;
+    font-size: 26px;
+    text-decoration: none;
+}
+.featured-menu-item__image {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+    flex-grow: 1;
+    margin: 10px 0;
+    max-width: 100%;
+    min-height: 1px;
+}
+.featured-menu-item__title:after {
+    content: ' ';
+    display: block;
+    height: 60px;
+    background: url("https://img.pngio.com/collection-of-free-transparent-text-divider-download-on-ui-ex-text-separator-png-1250_196.png") center no-repeat;
+    background-size: contain;
+}
+.featured-menu-item__title:before {
+    content: ' ';
+    display: block;
+    height: 27px;
+}
+.slick-track :hover{
+     border: #aaaaaa 10px solid;
+    text-decoration: none;
+}
+.slick-track :hover .featured-menu-item__title{
+    color: #aaaaaa ;
+    transition: 0.9ms;
+}
+h2{
+    margin: 0;
+    padding-left: 50px;
+    text-transform: uppercase;
+}
+p{
+    padding-left: 50px;
+}
+.trailer-menu-item{
+    display: flex;
+    justify-content: space-around;
+}
+/*.trailer-menu-item-part1{*/
+/*    justify-content: flex-start;*/
+/*}*/
+/*.trailer-menu-item__buttons{*/
+/*    display: flex;*/
+/*}*/
+.button{
+    background-color: #C00;
+    border: 3px solid #C00;
+    border-radius: 0;
+    color: #FFF;
+    display: block;
+    padding: 12px 6px 10px;
+    text-align: center;
+    transition: color .15s ease,background-color .15s ease,border-color .15s ease;
+    white-space: nowrap;
+    font: normal 700 14px/1.43 DIN,sans-serif;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    float: right;
+}
+button :hover {
+    text-decoration-color: #f1f0f0;
+    background-color: #f1f0f0;
+}
