@@ -4,6 +4,9 @@
     margin-right: 0;
     margin-left: 0;
 }
+footer#footer-row {
+    width: 100%;
+}
 
 #site-footer a {
     color: #fff;
@@ -29,8 +32,12 @@ p {
     display: inline-grid;
     margin-bottom: 20px;
     text-decoration: none !important;
+    color: white;
 }
 a {
+    color: white;
+}
+u{
     color: white;
 }
 .wprev_preview_bradius_T1_widget {
