@@ -21,6 +21,7 @@ img{
     display: flex;
     justify-content: space-between;
     float: left;
+    background-color:#ffffff;
 }
 .cake-sp{
     margin: auto;
@@ -80,6 +81,7 @@ img{
 /*}*/
 .trailer-menu-item{
     position: relative;
+    overflow:hidden;
 }
 .trailer-menu-item-part1{
     margin-left: 30px;

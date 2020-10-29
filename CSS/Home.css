@@ -18,8 +18,14 @@
     font-size: 32px;
     color: #0f0f0f;
 }
+.menu-item-a{
+    text-decoration: none !important;
+    display:block;
+}
 .menu-item-a :hover{
     color: #0a8446;
+}
+.menu-item :hover h3{
     text-decoration: none;
 }
 .about-menu{
