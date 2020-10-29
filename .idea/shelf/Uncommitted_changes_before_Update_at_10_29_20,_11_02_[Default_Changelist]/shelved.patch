@@ -1,0 +1,237 @@
+Index: CSS/header.css
+===================================================================
+--- CSS/header.css	(revision 8d0c66aa552e32e519f9da32d350b6559332ced0)
++++ CSS/header.css	(revision 8d0c66aa552e32e519f9da32d350b6559332ced0)
+@@ -1,99 +0,0 @@
+-*{
+-    margin: 0;
+-    padding: 0;
+-    box-sizing: border-box;
+-}
+-.header1 {
+-    padding: 15px;
+-    width: 102%;
+-    /* padding-right: 15px; */
+-}
+-.row.header1 {
+-    padding: 5px;
+-}
+-.button-order {
+-    margin-top: 15px;
+-}
+-.row{
+-    background-color: white;
+-    height: 100px;
+-    float: left;
+-    opacity: 0.9;
+-}
+-header{
+-    background-image: url("https://scontent.fhan2-6.fna.fbcdn.net/v/t1.15752-9/122528403_363036895140423_1592882599613763739_n.jpg?_nc_cat=100&ccb=2&_nc_sid=ae9488&_nc_ohc=D8JAz4eR1hAAX_OlFYr&_nc_ht=scontent.fhan2-6.fna&oh=d40426ef75823d9a78ab6a82e27689dd&oe=5FBB233A");
+-    width: 100%;
+-    height: 800px;
+-    float: left;
+-    background-repeat: no-repeat;
+-    background-size: cover;
+-}
+-
+-.top-links li{
+-    list-style: none;
+-    float: left;
+-    margin-right: 20px;
+-}
+-a{
+-    color: #3c763d;
+-}
+-.top-links {
+-    float: left;
+-    padding: 20px;
+-    padding-right: 20px;
+-    padding-top: 20px;
+-    font-size: 18px;
+-    margin-top: 8px;
+-}
+-.social-menu{
+-    margin: 15px;
+-    float: left;
+-    margin-top: 28px;
+-}
+-.social-menu li{
+-    list-style: none;
+-    float: left;
+-    margin-right: 20px;
+-}
+-.oder-online{
+-    background-image: url("https://scontent.fhan2-6.fna.fbcdn.net/v/t1.15752-9/122479233_790350995145325_6791239644913589385_n.png?_nc_cat=100&ccb=2&_nc_sid=ae9488&_nc_ohc=0pGQCyebYLgAX_f_vb0&_nc_ht=scontent.fhan2-6.fna&oh=265d359e63b38d83b6afc9b521dbce5e&oe=5FBC1D56");
+-    display: table-cell;
+-    width: 198px;
+-    height: 52px;
+-    color: #fff;
+-    text-align: center;
+-    text-transform: uppercase;
+-    vertical-align: middle;
+-}
+-.slider{
+-    position: relative;
+-    z-index: 2;
+-    margin-top: -75px;
+-    display: block;
+-}
+-.row-slider{
+-    margin-right: -15px;
+-    margin-left: -15px;
+-    margin: 0 auto;
+-    width: 99%;
+-}
+-img {
+-    display: block;
+-    margin-left: auto;
+-    margin-right: auto;
+-}
+-/*.ss{*/
+-/*    content: "";*/
+-/*    background-image: url("https://scontent.fhan2-6.fna.fbcdn.net/v/t1.15752-9/122462927_780908489136292_7144268804761022299_n.png?_nc_cat=103&ccb=2&_nc_sid=ae9488&_nc_ohc=hYtcf4WYZiEAX9atfIg&_nc_ht=scontent.fhan2-6.fna&oh=8fc8dbc0e07d4136f249545a63c3e460&oe=5FBB8C7D");*/
+-/*    display: block;*/
+-/*    position: absolute;*/
+-/*    top: -26px;*/
+-/*    height: 26px;*/
+-/*    width: 100%;*/
+-/*    left: 0;*/
+-/*    z-index: 1;*/
+-/*    background-size: 100% 100%;*/
+-/*    padding: 0;*/
+-/*    margin: 0;*/
+-/*    color: #3c763d;*/
+-/*}*/
+\ No newline at end of file
+Index: CSS/footer.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>.site-footer {\n    background: #0a8446;\n    color: #fff;\n    margin-right: 0;\n    margin-left: 0;\n}\nfooter#footer-row {\n    width: 100%;\n}\n\n#site-footer a {\n    color: #fff;\n    text-decoration: underline;\n}\n#site-footer,h1.widget-title {\n    font-size: 20px;\n    font-weight: bold;\n    font-family: 'Cabin', sans-serif;\n    text-align: left;\n}\n.h1,.h2,.h3,h1,h2,h3 {\n    margin-top: 20px;\n    margin-bottom: 10px;\n}\np {\n    margin: 0 0 10px;\n}\n.callus {\n    border: 2px solid #fff;\n    padding: 8px 10px 7px 10px;\n    margin-top: 3px;\n    display: inline-grid;\n    margin-bottom: 20px;\n    text-decoration: none !important;\n    color: white;\n}\na {\n    color: white;\n}\nu{\n    color: white;\n}\n.wprev_preview_bradius_T1_widget {\n    border-radius: 0;\n}\n.wprev_preview_bradius_T1_widget {border-radius: 0;\n}\n.wprev_preview_bradius_T1_widget::after{border-top: 30px solid ;\n}\n.wprevpro_t1_DIV_2 {\n    bottom: 0;\n    color: gray;\n    height: auto;\n    left: 0;\n    position: relative;\n    right: 0;\n    top: 0;\n    background: #fff none repeat scroll 0 0/auto padding-box border-box;\n    border: 1px solid #f5f5f5;\n    font: normal normal normal normal 13px/21px \"Helvetica Neue\",Helvetica,Arial,sans-serif;\n    margin: 0 0 25px;\n    padding: 12px 23px 6px 21px !important;\n}\n.wprevpro_t1_DIV_2:after {\n    bottom: -30px;\n    color: #fff;\n    content: '';\n    height: 30px;\n    left: 80px;\n    position: absolute;\n    right: 445px;\n    width: 30px;\n    border-right: 30px solid transparent;\n}\n.wprevpro_t1_IMG_4 {\n    float: left;\n    width: 60px;\n    border-radius: 50% 50% 50% 50%!important;\n    margin: 0 20px;\n}\n.wprevpro_t1_SPAN_5 {\n    float: left !important;\n}\n.copyright_area {\n    background: #084324;\n    width: 100%;\n    float: left;\n    padding-top: 21px;\n    padding-bottom: 21px;\n    position: relative;\n    z-index: 3;\n    margin-top: -22px;\n}\n.copyright {\n    color: #fff;\n    font-size: 14px;\n    text-align: center;\n    float: left;\n}\n.develop {\n    color: #fff;\n    font-size: 14px;\n    text-align: center;\n    float: left;\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- CSS/footer.css	(revision 8d0c66aa552e32e519f9da32d350b6559332ced0)
++++ CSS/footer.css	(date 1603763171557)
+@@ -4,9 +4,6 @@
+     margin-right: 0;
+     margin-left: 0;
+ }
+-footer#footer-row {
+-    width: 100%;
+-}
+ 
+ #site-footer a {
+     color: #fff;
+@@ -32,12 +29,8 @@
+     display: inline-grid;
+     margin-bottom: 20px;
+     text-decoration: none !important;
+-    color: white;
+ }
+ a {
+-    color: white;
+-}
+-u{
+     color: white;
+ }
+ .wprev_preview_bradius_T1_widget {
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"BranchesTreeState\">\n    <expand>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"GROUP_NODE:origin\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n    </expand>\n    <select />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"3e4ab067-5535-465b-a6fe-0476d1f3376b\" name=\"Default Changelist\" comment=\"\">\n      <change afterPath=\"$PROJECT_DIR$/CSS/header.css\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/Home.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Home.html\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"CSS File\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"ProjectId\" id=\"1jJ1k7otT8LHlghuDAdMzWMZfAT\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\n    <property name=\"list.type.of.created.stylesheet\" value=\"CSS\" />\n    <property name=\"node.js.detected.package.eslint\" value=\"true\" />\n    <property name=\"node.js.detected.package.tslint\" value=\"true\" />\n    <property name=\"node.js.path.for.package.eslint\" value=\"project\" />\n    <property name=\"node.js.path.for.package.tslint\" value=\"project\" />\n    <property name=\"node.js.selected.package.eslint\" value=\"(autodetect)\" />\n    <property name=\"node.js.selected.package.tslint\" value=\"(autodetect)\" />\n    <property name=\"vue.rearranger.settings.migration\" value=\"true\" />\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"3e4ab067-5535-465b-a6fe-0476d1f3376b\" name=\"Default Changelist\" comment=\"\" />\n      <created>1603507521072</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1603507521072</updated>\n      <workItem from=\"1603507522237\" duration=\"1738000\" />\n      <workItem from=\"1603600994346\" duration=\"201000\" />\n      <workItem from=\"1603601233325\" duration=\"223000\" />\n      <workItem from=\"1603601688254\" duration=\"357000\" />\n      <workItem from=\"1603602058843\" duration=\"870000\" />\n      <workItem from=\"1603631339101\" duration=\"366000\" />\n      <workItem from=\"1603631747345\" duration=\"1817000\" />\n      <workItem from=\"1603634637165\" duration=\"190000\" />\n      <workItem from=\"1603635052568\" duration=\"3952000\" />\n      <workItem from=\"1603704852125\" duration=\"149000\" />\n      <workItem from=\"1603705534156\" duration=\"4317000\" />\n    </task>\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\n  </component>\n  <component name=\"WindowStateProjectService\">\n    <state x=\"373\" y=\"186\" key=\"#com.intellij.fileTypes.FileTypeChooser\" timestamp=\"1603601069065\">\n      <screen x=\"0\" y=\"23\" width=\"1280\" height=\"728\" />\n    </state>\n    <state x=\"373\" y=\"186\" key=\"#com.intellij.fileTypes.FileTypeChooser/0.23.1280.728@0.23.1280.728\" timestamp=\"1603601069065\" />\n    <state x=\"378\" y=\"131\" key=\"#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog\" timestamp=\"1603635084297\">\n      <screen x=\"0\" y=\"23\" width=\"1280\" height=\"728\" />\n    </state>\n    <state x=\"378\" y=\"131\" key=\"#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1280.728@0.23.1280.728\" timestamp=\"1603635084297\" />\n    <state x=\"438\" y=\"298\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2\" timestamp=\"1603635151966\">\n      <screen x=\"0\" y=\"23\" width=\"1280\" height=\"728\" />\n    </state>\n    <state x=\"438\" y=\"298\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1280.728@0.23.1280.728\" timestamp=\"1603635151966\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision 8d0c66aa552e32e519f9da32d350b6559332ced0)
++++ .idea/workspace.xml	(date 1603944115060)
+@@ -19,9 +19,10 @@
+     <select />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="3e4ab067-5535-465b-a6fe-0476d1f3376b" name="Default Changelist" comment="">
+-      <change afterPath="$PROJECT_DIR$/CSS/header.css" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Home.html" afterDir="false" />
++    <list default="true" id="3e4ab067-5535-465b-a6fe-0476d1f3376b" name="Default Changelist" comment="update">
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/CSS/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/footer.css" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/CSS/header.css" beforeDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -37,6 +38,7 @@
+   </component>
+   <component name="Git.Settings">
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++    <option name="UPDATE_TYPE" value="REBASE" />
+   </component>
+   <component name="ProjectId" id="1jJ1k7otT8LHlghuDAdMzWMZfAT" />
+   <component name="ProjectViewState">
+@@ -73,8 +75,18 @@
+       <workItem from="1603634637165" duration="190000" />
+       <workItem from="1603635052568" duration="3952000" />
+       <workItem from="1603704852125" duration="149000" />
+-      <workItem from="1603705534156" duration="4317000" />
++      <workItem from="1603705534156" duration="4869000" />
++      <workItem from="1603712367599" duration="885000" />
++      <workItem from="1603940308525" duration="368000" />
++    </task>
++    <task id="LOCAL-00001" summary="123">
++      <created>1603711926626</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1603711926626</updated>
+     </task>
++    <option name="localTasksCounter" value="2" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -92,18 +104,43 @@
+     </option>
+     <option name="oldMeFiltersMigrated" value="true" />
+   </component>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="123" />
++    <MESSAGE value="update" />
++    <option name="LAST_COMMIT_MESSAGE" value="update" />
++  </component>
+   <component name="WindowStateProjectService">
+     <state x="373" y="186" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603601069065">
+       <screen x="0" y="23" width="1280" height="728" />
+     </state>
+     <state x="373" y="186" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1280.728@0.23.1280.728" timestamp="1603601069065" />
+-    <state x="378" y="131" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603635084297">
++    <state x="378" y="131" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603763133524">
++      <screen x="0" y="23" width="1280" height="728" />
++    </state>
++    <state x="378" y="131" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1280.728@0.23.1280.728" timestamp="1603763133524" />
++    <state x="228" y="127" key="IDE.errors.dialog" timestamp="1603762922141">
++      <screen x="0" y="23" width="1280" height="728" />
++    </state>
++    <state x="228" y="127" key="IDE.errors.dialog/0.23.1280.728@0.23.1280.728" timestamp="1603762922141" />
++    <state x="128" y="76" key="MergeDialog" timestamp="1603762895172">
++      <screen x="0" y="23" width="1280" height="728" />
++    </state>
++    <state x="128" y="76" key="MergeDialog/0.23.1280.728@0.23.1280.728" timestamp="1603762895172" />
++    <state x="278" y="146" key="MultipleFileMergeDialog" timestamp="1603763157961">
++      <screen x="0" y="23" width="1280" height="728" />
++    </state>
++    <state x="278" y="146" key="MultipleFileMergeDialog/0.23.1280.728@0.23.1280.728" timestamp="1603763157961" />
++    <state x="410" y="87" key="RollbackChangesDialog" timestamp="1603712581018">
+       <screen x="0" y="23" width="1280" height="728" />
+     </state>
+-    <state x="378" y="131" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1280.728@0.23.1280.728" timestamp="1603635084297" />
+-    <state x="438" y="298" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603635151966">
++    <state x="410" y="87" key="RollbackChangesDialog/0.23.1280.728@0.23.1280.728" timestamp="1603712581018" />
++    <state x="240" y="117" key="Vcs.Push.Dialog.v2" timestamp="1603762939886">
+       <screen x="0" y="23" width="1280" height="728" />
+     </state>
+-    <state x="438" y="298" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1280.728@0.23.1280.728" timestamp="1603635151966" />
++    <state x="240" y="117" key="Vcs.Push.Dialog.v2/0.23.1280.728@0.23.1280.728" timestamp="1603762939886" />
++    <state x="438" y="298" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603940320089">
++      <screen x="0" y="23" width="1280" height="728" />
++    </state>
++    <state x="438" y="298" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1280.728@0.23.1280.728" timestamp="1603940320089" />
+   </component>
+ </project>
+\ No newline at end of file
