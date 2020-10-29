@@ -3,30 +3,29 @@
     padding: 0;
     box-sizing: border-box;
 }
-.header1 {
-    padding: 15px;
-    width: 102%;
-    /* padding-right: 15px; */
+.nav-menu {
+    position:fixed;
+    top:0;
+    padding: 15px 40px;
+    width: 100%;
+    z-index:100;
 }
-.row.header1 {
+.menu-nav {
     padding: 5px;
 }
-.button-order {
+.menu-nav .button-order {
     margin-top: 15px;
 }
-.row{
+.nav-menu{
     background-color: white;
     height: 100px;
     float: left;
     opacity: 0.9;
 }
-header{
-    background-image: url("https://scontent.fhan2-6.fna.fbcdn.net/v/t1.15752-9/122528403_363036895140423_1592882599613763739_n.jpg?_nc_cat=100&ccb=2&_nc_sid=ae9488&_nc_ohc=D8JAz4eR1hAAX_OlFYr&_nc_ht=scontent.fhan2-6.fna&oh=d40426ef75823d9a78ab6a82e27689dd&oe=5FBB233A");
+.header{
+    position:relative;
     width: 100%;
-    height: 800px;
     float: left;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .top-links li{
@@ -34,12 +33,12 @@ header{
     float: left;
     margin-right: 20px;
 }
-a{
+.nav-menu a{
     color: #3c763d;
 }
 .top-links {
     float: left;
-    padding: 50px;
+    padding: 20px;
     padding-right: 20px;
     padding-top: 20px;
     font-size: 18px;
@@ -55,15 +54,23 @@ a{
     float: left;
     margin-right: 20px;
 }
-.oder-online{
+.button-order{
+    margin-top:10px;
+    padding:0;
+    display:table-cell;
+    height:100%;
+    vertical-align:middle;
+}
+.button-order .oder-online{
     background-image: url("https://scontent.fhan2-6.fna.fbcdn.net/v/t1.15752-9/122479233_790350995145325_6791239644913589385_n.png?_nc_cat=100&ccb=2&_nc_sid=ae9488&_nc_ohc=0pGQCyebYLgAX_f_vb0&_nc_ht=scontent.fhan2-6.fna&oh=265d359e63b38d83b6afc9b521dbce5e&oe=5FBC1D56");
+    background-repeat:no-repeat;
+    height:55px;
+    width:198px;
     display: table-cell;
-    width: 198px;
-    height: 52px;
     color: #fff;
     text-align: center;
-    text-transform: uppercase;
-    vertical-align: middle;
+    text-decoration:none;
+    vertical-align:middle;
 }
 .slider{
     position: relative;
@@ -77,10 +84,11 @@ a{
     margin: 0 auto;
     width: 99%;
 }
-img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.header-background-img1 {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
 }
 /*.ss{*/
 /*    content: "";*/

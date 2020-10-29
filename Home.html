@@ -12,10 +12,12 @@
     <link rel="stylesheet" href="CSS/Cake.css"/>
     <link rel="stylesheet" href="CSS/footer.css">
     <link rel="stylesheet" href="CSS/header.css">
+    <link rel="stylesheet" href="CSS/css.cake.css">
 </head>
 <body>
 <header class="section header">
-    <div class="row header1">
+    <img style="height:800px;width:100%" src="imgs/header-background-img.jpg">
+    <div class="nav-menu">
         <div class="col-md-2">
             <a href="#"><img src="https://scontent.fhan2-5.fna.fbcdn.net/v/t1.15752-9/122568983_360332491700334_1238873947051944277_n.png?_nc_cat=109&ccb=2&_nc_sid=ae9488&_nc_ohc=fSH8fKaUY9YAX_EyEIn&_nc_ht=scontent.fhan2-5.fna&oh=97f5eb69359740c0e5c6d615394c41d4&oe=5FBA9600"/></a>
         </div>
@@ -43,9 +45,7 @@
             <a class="oder-online" href="#" target="_blank">ODER ONLINE</a>
         </div>
     </div>
-    <img src="https://scontent.fhan2-6.fna.fbcdn.net/v/t1.15752-9/122488039_806596213499572_5439198773189576991_n.png?_nc_cat=103&ccb=2&_nc_sid=ae9488&_nc_ohc=VvU7R34mTukAX_zCYP1&_nc_oc=AQnW8m_9QqwVw2HzTTGnX0UQN_HUvbCIfxGOnC2dSK1uTllxVpT9CfVoBtW1x1m16_s&_nc_ht=scontent.fhan2-6.fna&oh=51fb051614e62a0e9136a9b6aa1cf39e&oe=5FBB5564">
-
-
+    <img class="header-background-img1" src="https://scontent.fhan2-6.fna.fbcdn.net/v/t1.15752-9/122488039_806596213499572_5439198773189576991_n.png?_nc_cat=103&ccb=2&_nc_sid=ae9488&_nc_ohc=VvU7R34mTukAX_zCYP1&_nc_oc=AQnW8m_9QqwVw2HzTTGnX0UQN_HUvbCIfxGOnC2dSK1uTllxVpT9CfVoBtW1x1m16_s&_nc_ht=scontent.fhan2-6.fna&oh=51fb051614e62a0e9136a9b6aa1cf39e&oe=5FBB5564">
 </header>
 <nav class="section navigation">
 
@@ -58,45 +58,51 @@
         </div>
         <div class="container bakery-items">
             <div class="menu-item col-md-3">
-                <div class="menu-image">
+                <a href="#" class="menu-item-a">
+                    <div class="menu-image">
                     <img src="imgs/sandwiches.png">
                 </div>
                 <div class="menu-title">
-                    <h3><a href="#">Deli</a></h3>
+                    <h3>Deli</h3>
                 </div>
+                </a>
                 <div class="about-menu">
                     Our deli offers a variety of delicious options to the hungry diner, including our famous hand-carved Cuban sandwiches and deviled crabs.
-                </div>
+                    </div>
             </div>
             <div class="menu-item col-md-3">
-                <div class="menu-image">
-                    <img class="note-picture" src="imgs/cakes.png">
+                <a href="#" class="menu-item-a">
+                    <div class="menu-image">
+                        <img class="note-picture" src="imgs/cakes.png">
+                    </div>
+                    <div class="menu-title">
+                        <h3>Cakes</h3>
                 </div>
-                <div class="menu-title">
-                    <h3><a href="#">Cakes</a></h3>
-                </div>
+                </a>
                 <div class="about-menu">
                     No matter what the occasion, Alessi Bakeries has the perfect cake for you, carefully baked and exquisitely decorated.
                 </div>
             </div>
             <div class="menu-item col-md-3">
+                <a href="#" class="menu-item-a">
                 <div class="menu-image">
                     <img src="imgs/pastries.png">
                 </div>
                 <div class="menu-title">
-                    <h3><a href="#">Pastries</a></h3>
-                </div>
+                    <h3>Pastries</h3>
+                </div></a>
                 <div class="about-menu">
                     Whether you are looking for our classic cannolis or modern twists such as our famous cronuts, Alessi Bakeries offers the highest quality pastries in Tampa Bay.
                 </div>
             </div>
             <div class="menu-item col-md-3">
+                <a href="#" class="menu-item-a">
                 <div class="menu-image">
                     <img src="imgs/others.png">
                 </div>
                 <div class="menu-title">
-                    <h3><a href="#">Others</a></h3>
-                </div>
+                    <h3>Others</h3>
+                </div></a>
                 <div class="about-menu">
                     Our delicious creations are perfect for any occasion from the largest celebrations to a personal indulgence.
                 </div>
@@ -116,7 +122,55 @@
         </div>
     </div>
     <div class="main02">
-
+            <div class="trailer-menu-item">
+                <div class="trailer-menu-item-part1 col-md-5">
+                    <h2 >Featured Menu Items</h2>
+                    <p class="subheading">Available at Boudin SF locations. Menus may vary by location.</p>
+                </div>
+                    <!--/.section-heading__headings-->
+                <div class="trailer-menu-item__buttons ">
+                    <p>
+                        <br>
+                        <a class="button-item" href="#">Order Now</a>
+                    </p>
+                </div>
+                    <!--/.section-heading__buttons-->
+            </div>
+        <div class="menu-item">
+            <div class="slick-track">
+                <div class="cake-sp">
+                    <a class="featured-menu-item " href="#" tabindex="0">
+                        <div class="featured-menu-item__image">
+                            <img width="342" height="314" src="https://3d1zvgya81uuh1sso1s4f1e1-wpengine.netdna-ssl.com/wp-content/uploads/2017/02/california-baquette-burger-342x314.jpeg" alt="Baguette burger with Havarti, lettuce, tomatoes, smashed avocado on a garlic-buttered toasted multigrain baguette">
+                        </div>
+                        <div class="featured-menu-item__title">
+                            California Baguette Burger
+                        </div>
+                    </a>
+                </div>
+                <div class="cake-sp">
+                    <a class="featured-menu-item " href="#" tabindex="0">
+                        <div class="featured-menu-item__image">
+                            <img width="342" height="314" src="https://3d1zvgya81uuh1sso1s4f1e1-wpengine.netdna-ssl.com/wp-content/uploads/2017/03/menu_sandwich_turkey_sandwich-342x314.jpeg" alt="Turkey Avocado Sandwich with Havarti, tomatoes, lettuce and mayo on multigrain bread" />
+                        </div>
+                        <div class="featured-menu-item__title">
+                            Turkey Avocado
+                        </div>
+                    </a>
+                </div>
+                <div class="cake-sp">
+                    <a class="featured-menu-item " href="#" tabindex="0">
+                        <div class="featured-menu-item__image">
+                            <img width="342" height="314" src="https://3d1zvgya81uuh1sso1s4f1e1-wpengine.netdna-ssl.com/wp-content/uploads/2017/02/clam-chowder-342x314.jpeg" class="attachment-featured_menu_item_thumb size-featured_menu_item_thumb" alt="Clam Chowder in a Sourdough Bread Bowl" />
+                        </div>
+                        <div class="featured-menu-item__title">
+                            Clam Chowder
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- .widget-group__inner -->
     </div>
     <div class="main03">
         <div class="block achievement-content">
