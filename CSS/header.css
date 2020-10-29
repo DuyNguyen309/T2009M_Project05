@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header1 {
+    padding: 15px;
+    width: 102%;
+    /* padding-right: 15px; */
+}
+.row.header1 {
+    padding: 5px;
+}
+.button-order {
+    margin-top: 15px;
+}
+.row{
+    background-color: white;
+    height: 100px;
+    float: left;
+    opacity: 0.9;
+}
+header{
+    background-image: url("https://scontent.fhan2-6.fna.fbcdn.net/v/t1.15752-9/122528403_363036895140423_1592882599613763739_n.jpg?_nc_cat=100&ccb=2&_nc_sid=ae9488&_nc_ohc=D8JAz4eR1hAAX_OlFYr&_nc_ht=scontent.fhan2-6.fna&oh=d40426ef75823d9a78ab6a82e27689dd&oe=5FBB233A");
+    width: 100%;
+    height: 800px;
+    float: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top-links li{
+    list-style: none;
+    float: left;
+    margin-right: 20px;
+}
+a{
+    color: #3c763d;
+}
+.top-links {
+    float: left;
+    padding: 50px;
+    padding-right: 20px;
+    padding-top: 20px;
+    font-size: 18px;
+    margin-top: 8px;
+}
+.social-menu{
+    margin: 15px;
+    float: left;
+    margin-top: 28px;
+}
+.social-menu li{
+    list-style: none;
+    float: left;
+    margin-right: 20px;
+}
+.oder-online{
+    background-image: url("https://scontent.fhan2-6.fna.fbcdn.net/v/t1.15752-9/122479233_790350995145325_6791239644913589385_n.png?_nc_cat=100&ccb=2&_nc_sid=ae9488&_nc_ohc=0pGQCyebYLgAX_f_vb0&_nc_ht=scontent.fhan2-6.fna&oh=265d359e63b38d83b6afc9b521dbce5e&oe=5FBC1D56");
+    display: table-cell;
+    width: 198px;
+    height: 52px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+.slider{
+    position: relative;
+    z-index: 2;
+    margin-top: -75px;
+    display: block;
+}
+.row-slider{
+    margin-right: -15px;
+    margin-left: -15px;
+    margin: 0 auto;
+    width: 99%;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*.ss{*/
+/*    content: "";*/
+/*    background-image: url("https://scontent.fhan2-6.fna.fbcdn.net/v/t1.15752-9/122462927_780908489136292_7144268804761022299_n.png?_nc_cat=103&ccb=2&_nc_sid=ae9488&_nc_ohc=hYtcf4WYZiEAX9atfIg&_nc_ht=scontent.fhan2-6.fna&oh=8fc8dbc0e07d4136f249545a63c3e460&oe=5FBB8C7D");*/
+/*    display: block;*/
+/*    position: absolute;*/
+/*    top: -26px;*/
+/*    height: 26px;*/
+/*    width: 100%;*/
+/*    left: 0;*/
+/*    z-index: 1;*/
+/*    background-size: 100% 100%;*/
+/*    padding: 0;*/
+/*    margin: 0;*/
+/*    color: #3c763d;*/
+/*}*/
