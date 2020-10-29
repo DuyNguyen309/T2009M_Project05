@@ -3,6 +3,7 @@
     color: #fff;
     margin-right: 0;
     margin-left: 0;
+    width: 100%;
 }
 
 #site-footer a {
@@ -22,6 +23,9 @@
 p {
     margin: 0 0 10px;
 }
+.color{
+    color: white;
+}
 .callus {
     border: 2px solid #fff;
     padding: 8px 10px 7px 10px;
@@ -29,8 +33,6 @@ p {
     display: inline-grid;
     margin-bottom: 20px;
     text-decoration: none !important;
-}
-a {
     color: white;
 }
 .wprev_preview_bradius_T1_widget {
