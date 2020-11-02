@@ -16,7 +16,6 @@ img{
 }
 .trailer-menu-item{
     position: relative;
-    z-index: 100;
     padding-left:30px;
     height: auto;
     background-color:#ffffff;
