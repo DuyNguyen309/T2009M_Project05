@@ -39,8 +39,6 @@
 .top-links {
     float: left;
     padding: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
     font-size: 16px;
     margin-top: 8px;
 }
@@ -79,9 +77,6 @@
     display: block;
 }
 .row-slider{
-    margin-right: -15px;
-    margin-left: -15px;
-    margin: 0 auto;
     width: 99%;
 }
 .header-background-img1 {

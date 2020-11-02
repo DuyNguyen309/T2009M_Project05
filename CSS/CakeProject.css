@@ -92,7 +92,7 @@ body{
 .history-content{
     color:white;
     background-image:url("../imgs/wood.jpg");
-    padding:50px 0;
+    padding:50px 0px 70px;
 }
 .history-content img{
     width:350px;
@@ -108,12 +108,21 @@ body{
 .history-content a{
     text-decoration:none;
     display:inline-block;
-    padding:10px 15px;
     color:white;
-    background-color: #0a8446;
+    background-color: #3e8f3e;
+    border: 3px solid #3e8f3e;
+    padding: 12px 6px 10px;
+    text-align: center;
+    transition: color .15s ease,background-color .15s ease,border-color .15s ease;
+    white-space: nowrap;
+    font: normal 700 14px/1.43 DIN,sans-serif;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
 }
 .history-content a:hover{
-    background-color: #025d30;
+    background-color: #f1f0f0;
+    color: #3e8f3e;
+    text-decoration: none;
 }
 /*CREATION CONTENT*/
 .creation-content{
@@ -224,10 +233,12 @@ body{
 }
 .email-block button {
     color: white;
-    background-color:#018445;
-    border:1px solid white;
+    border: 3px solid #3e8f3e;
+    background-color:#3e8f3e;
     padding:7px 30px;
 }
 .email-block form span:hover button{
-    background-color:#025d30;
+    background-color:#f1f0f0;
+    color: #3e8f3e;
+    text-decoration: none;
 }

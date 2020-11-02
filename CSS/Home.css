@@ -2,6 +2,18 @@
     font-family: 'Cabin', sans-serif;
     box-sizing: border-box;
 }
+.container-main01{
+    position: relative;
+}
+.container-main01::before{
+    content:"";
+    display:block;
+    position:absolute;
+    height:54px;
+    z-index:1;
+    background-image:url("../imgs/border-top.png");
+    background-repeat:repeat-x;
+}
 .container-main01 h3{
     font-family: 'Montez', cursive;
     font-size: 63px;
@@ -23,10 +35,11 @@
     display:block;
 }
 .menu-item-a :hover{
+    text-decoration: none;
     color: #0a8446;
 }
-.menu-item :hover h3{
-    text-decoration: none;
+.menu-item-a :hover img{
+    filter: grayscale(100%);
 }
 .about-menu{
     text-align: center;
@@ -63,8 +76,8 @@
 }
 .button{
     margin: 10px 0 0;
-    border: 3px solid #cc0000;
-    background-color: #cc0000;
+    border: 3px solid #3e8f3e;
+    background-color: #3e8f3e;
     color: #f2f2f2;
     text-decoration: none;
     padding: 12px 6px 10px;
@@ -77,6 +90,6 @@
 }
 .button:hover{
     background-color: #f1f0f0;
-    color: #cc0000;
+    color: #3e8f3e;
     text-decoration: none;
 }

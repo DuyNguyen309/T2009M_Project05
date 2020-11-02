@@ -14,7 +14,6 @@ div{
 img{
     width: auto;
 }
-
 .slick-track{
     opacity: 1;
     width: 100%;
@@ -22,6 +21,7 @@ img{
     justify-content: space-between;
     float: left;
     background-color:#ffffff;
+    margin-bottom: 30px;
 }
 .cake-sp{
     margin: auto;
@@ -35,7 +35,7 @@ img{
     pointer-events: none;
 }
 .featured-menu-item__title{
-    color: #cc0000;
+    color: #3e8f3e;
     display: block;
     text-align: center;
     font-size: 26px;
@@ -88,7 +88,7 @@ img{
 }
 .trailer-menu-item-part1 h2{
     font-family: 'Montez', cursive;
-    font-size: xx-large;
+    font-size: 50px;
 }
 .trailer-menu-item__buttons{
     position: absolute;
@@ -97,8 +97,8 @@ img{
 
 
 .button-item{
-    background-color: #C00;
-    border: 3px solid #C00;
+    background-color: #3e8f3e;
+    border: 3px solid #3e8f3e;
     border-radius: 0;
     color: #FFF;
     display: block;
@@ -113,7 +113,7 @@ img{
     float: right;
 }
 .trailer-menu-item__buttons :hover .button-item{
-    color: #cc0000;
+    color: #3e8f3e;
     background-color: #f1f0f0;
     text-decoration: none;
 }
