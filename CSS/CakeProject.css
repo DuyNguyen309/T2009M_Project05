@@ -92,7 +92,7 @@ body{
 .history-content{
     color:white;
     background-image:url("../imgs/wood.jpg");
-    padding:50px 0px 70px;
+    padding:50px 0 70px;
 }
 .history-content img{
     width:350px;
