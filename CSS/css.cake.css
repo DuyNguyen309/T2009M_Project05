@@ -7,8 +7,6 @@ body{
     font-size:15px;
     line-height:23px;
     font-family: 'Cabin', sans-serif;
-    /*background-image: url("../imgs/hamburger.jpg");*/
-    /*position: fixed;*/
 }
 div{
     display: block;
@@ -20,7 +18,13 @@ img{
     position: relative;
     z-index: 100;
     padding-left:30px;
+    height: auto;
     background-color:#ffffff;
+}
+.trailer-menu-item::after{
+    content:"";
+    display:table;
+    clear:both;
 }
 .trailer-menu-item::before{
     content:"";
@@ -33,11 +37,6 @@ img{
     z-index:10;
     background-image:url("../imgs/border-top.png");
     background-repeat:repeat-x;
-}
-.trailer-menu-item::after{
-    content:"";
-    display:table;
-    clear:both;
 }
 .trailer-menu-item-part1 h2{
     font-family: 'Montez', cursive;
