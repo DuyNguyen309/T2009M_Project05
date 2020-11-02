@@ -34,6 +34,11 @@ img{
     background-image:url("../imgs/border-top.png");
     background-repeat:repeat-x;
 }
+.trailer-menu-item::after{
+    content:"";
+    display:table;
+    clear:both;
+}
 .trailer-menu-item-part1 h2{
     font-family: 'Montez', cursive;
     font-size: 50px;
@@ -144,19 +149,26 @@ img{
 /*    text-transform: uppercase;*/
 /*}*/
 .ad-content{
-    width: auto;
+    position:relative;
+    width: 100%;
     height: 600px;
     display: block;
     float: left;
-
 }
 .ad-content-detail h3 {
+    position:absolute;
+    top:50%;
+    left:50%;
+    display:block;
+    width:70%;
+    transform:translate(-50%,-50%);
     font-size: 79px;
     color: #fff;
     text-align: center;
     text-shadow: 2px 2px 2px #000;
 }
 .ad-content-detail h3 a{
+    display:block;
     font-family: 'Montez', cursive;
     color: #f1f0f0;
     text-decoration: none;
@@ -175,7 +187,8 @@ img{
     background: url("../imgs/bottom-border-fresh.png") no-repeat;
     width: 64%;
     height: 79px;
+    bottom:-20px;
     display: block;
-    margin: 0 auto;
+    margin: 20px auto;
     background-size: contain;
 }

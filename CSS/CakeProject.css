@@ -7,6 +7,10 @@ body{
     font-size:15px;
     line-height:23px;
     font-family: 'Cabin', sans-serif;
+    background-image:url("../imgs/hamburger.jpg");
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
 }
 .block{
     width:100%;
@@ -36,7 +40,6 @@ body{
     left:0;
     right:0;
     z-index:1;
-    background-color:white;
     background-image:url("../imgs/border-top.png");
     background-repeat:repeat-x;
 }
