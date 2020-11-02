@@ -17,9 +17,10 @@ img{
     width: auto;
 }
 .trailer-menu-item{
-    background-color: #f1f0f0;
     position: relative;
     z-index: 100;
+    padding-left:30px;
+    background-color:#ffffff;
 }
 .trailer-menu-item::before{
     content:"";
@@ -33,16 +34,14 @@ img{
     background-image:url("../imgs/border-top.png");
     background-repeat:repeat-x;
 }
-.trailer-menu-item-part1{
-    margin-left: 30px;
-}
 .trailer-menu-item-part1 h2{
     font-family: 'Montez', cursive;
     font-size: 50px;
 }
 .trailer-menu-item__buttons{
     position: absolute;
-    left:80%;
+    left:70%;
+    top:10px;
 }
 .button-item{
     background-color: #3e8f3e;
