@@ -15,6 +15,7 @@ img{
     width: auto;
 }
 .slick-track{
+    position:relative;
     opacity: 1;
     width: 100%;
     display: flex;
@@ -22,6 +23,30 @@ img{
     float: left;
     background-color:#ffffff;
     margin-bottom: 30px;
+}
+.slick-track::before{
+    content:"";
+    display:block;
+    height:54px;
+    position:absolute;
+    top:-54px;
+    left:0;
+    right:0;
+    z-index:1;
+    background-image:url("../imgs/border-top.png");
+    background-repeat:repeat-x;
+}
+.slick-track::after{
+    content:"";
+    display:block;
+    height:54px;
+    position:absolute;
+    bottom:-54px;
+    left:0;
+    right:0;
+    z-index:1;
+    background-image:url("../imgs/border-bottom.png");
+    background-repeat:repeat-x;
 }
 .cake-sp{
     margin: auto;
