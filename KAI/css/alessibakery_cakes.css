@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Cabin', sans-serif;
+    font-size: 15px;
+}
+.top-bar{
+    position: relative;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.topbar-tittle{
+    font-family: 'Montez', cursive;
+    font-size: 90px;
+    position: absolute;
+    color: #f2f2f2;
+    left: 40%;
+    top: 40%;
+    text-shadow: 3px 3px 3px black;
+}
+/* done section main */
+.container . menu{
+    position: relative;
+}
+.menu-image{
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.menu-name{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    font-family: 'Montez', cursive;
+    font-size: 50px;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+}
+.menu-image1{
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.menu-name1{
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    font-family: 'Montez', cursive;
+    font-size: 50px;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+}
+/* done section menu */
+.wooden-area{
+    background-image: url("../imgs/wood-background.jpg");
+    background-size: cover;
+    padding-bottom: 30px;
+    padding-top: 60px;
+}
+.ranch{
+    width: 321px;
+    height: 454px;
+    padding: 5px;
+    margin: 0 20px 10px 0;
+    box-shadow: 2px 4px 7px #000;
+    float: left;
+}
+.text{
+    position: absolute;
+    color: #fff;
+}
+.content{
+    color: #fff;
+    font-size: 15px;
+}
+.content-title{
+    font-size: 60px;
+    font-family: 'Montez', cursive;
+    margin: 0 0 35px;
+    padding-top: 50px;
+}
+.mini-content{
+    margin: 0 0 25px;
+}
+.contact-us{
+    color: #fff;
+    text-decoration: white;
+}
+.contact-us:hover{
+    color: white;
+}
+.button-cakes{
+    color: #fff;
+    padding: 15px 15px;
+    background-color: #0a8446;
+    margin-right: 10px;
+}
+.button-cakes:hover{
+    text-decoration: none;
+    color: white;
+    background-color: #376d38;
+}
+/* done wooden area */
+.specialty_cakes{
+    font-size: 67px;
+    font-family: 'Montez', cursive;
+    margin: 0 0 35px;
+    padding-top: 30px;
+}
+.specialty_top{
+    margin: 0 0 50px;
+}
+.panel{
+    margin: 0 0 30px;
+}
+.content-panel{
+    margin: 0 0 10px;
+}
+.specialty-desserts{
+    background-image: url("../imgs/cakes2.jpg");
+    width: 1140px;
+    height: 374px;
+    background-size: cover;
+}
+.specialty-desserts-title{
+    font-size: 67px;
+    font-family: 'Montez', cursive;
+    color: white;
+    text-shadow: 3px 3px 3px #0f0f0f;
+    margin-top: 0;
+    padding-top: 211px;
+}
+.grid-cell{
+    padding-bottom: 50px;
+}
+.panel-widget{
+    margin: 0 0 30px;
+    font-family: 'Cabin', sans-serif;
+}
+.line-1st{
+    padding-top: 10px;
+    font-size: 20px;
+    color: #017E2F;
+}
+.line-2nd{
+    font-size: 18px;
+}
+.line-3rd{
+    font-size: 14px;
+}
