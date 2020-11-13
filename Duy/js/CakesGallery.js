@@ -3,101 +3,121 @@ var gallery = [
         image:"imgs/cake11.jpg",
         position:0,
         height:"auto",
+        width:"100%"
     },
     {
         image:"imgs/cake03.jpg",
-        position:"-50px",
-        height:"auto",
+        position:0,
+        height:"100%",
+        width:"auto"
     },
     {
         image:"imgs/cake06.jpg",
         position:0,
         height:"100%",
+        width:"auto"
     },
     {
         image:"imgs/cake04.jpg",
         position:0,
         height:"auto",
+        width:"100%"
     },
     {
         image:"imgs/cake10.jpg",
         position:0,
         height:"auto",
+        width:"100%"
     },
     {
         image:"imgs/cake17.jpg",
-        position:0,
+        position:"-30px",
         height:"auto",
+        width:"100%"
     },
     {
         image:"imgs/cake07.jpg",
         position:0,
         height:"auto",
+        width:"100%"
     },
     {
         image:"imgs/cake12.jpg",
         position:0,
         height:"auto",
+        width:"100%"
     },
     {
         image:"imgs/cake05.jpg",
         position:0,
         height:"auto",
+        width:"100%"
     },
     {
         image:"imgs/cake18.jpg",
         position:0,
-        height:"auto",
+        height:"100%",
+        width:"auto"
     },
     {
         image:"imgs/cake08.jpg",
         position:0,
         height:"100%",
+        width:"auto"
     },
     {
         image:"imgs/cake15.jpg",
         position:0,
         height:"auto",
+        width:"100%"
     },
     {
         image:"imgs/cake02.jpg",
         position:"-50px",
         height:"auto",
+        width:"100%"
     },
     {
         image:"imgs/cake16.jpg",
         position:0,
         height:"auto",
+        width:"100%"
     },
     {
         image:"imgs/cake14.jpg",
         position:"-70px",
         height:"auto",
+        width:"100%"
     },
     {
         image:"imgs/cake19.jpg",
         position:0,
-        height:"auto",
+        height:"100%",
+        width:"auto"
     },
     {
         image:"imgs/cake09.jpg",
         position:"-20px",
         height:"auto",
+        width:"100%"
     },
     {
         image:"imgs/cake01.jpg",
         position:"-20px",
         height:"auto",
+        width:"100%"
     },
     {
         image:"imgs/cake13.jpg",
         position:0,
         height:"auto",
+        width:"100%"
     },
     {
         image:"imgs/cake20.jpg",
         position:0,
         height:"auto",
+        width:"100%"
     },
 ];
 
@@ -106,7 +126,7 @@ var ReturnMain = (arr) =>{
     for(var i = 0; i < arr.length; i++){
         returnHTML += "<div class=\"items-block\">\n" +
             "        <div class=\"items\">\n" +
-            "            <img class=\"images\" src=\""+arr[i].image+"\" style=\"top:"+arr[i].position+";height:"+arr[i].height+"\">\n" +
+            "            <img class=\"images\" src=\""+arr[i].image+"\" style=\"top:"+arr[i].position+";height:"+arr[i].height+";width:"+arr[i].width+"\">\n" +
             "        </div>\n" +
             "    </div>";
     }

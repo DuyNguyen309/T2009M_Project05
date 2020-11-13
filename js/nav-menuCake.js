@@ -22,9 +22,6 @@ var ReturnNav = () =>{
         "            <a href=\"#\">CONTACT</a>\n" +
         "        </div>\n" +
         "        <div class=\"flex-items\">\n" +
-        "            <a href=\"#\">GIVING BACK</a>\n" +
-        "        </div>\n" +
-        "        <div class=\"flex-items\">\n" +
         "            <a href=\"https://www.facebook.com/AlessiBakeries/\" class=\"icon-links\"><i class=\"fab fa-facebook-f\"></i></a>\n" +
         "        </div>\n" +
         "        <div class=\"flex-items\">\n" +
