@@ -1,0 +1,125 @@
+.main__container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+}
+.main__carousel {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 10px;
+    padding: 20px 60px;
+    background-color: white;
+}
+.main__carousel > h3 {
+    margin: 0;
+    padding-bottom: 20px;
+    color: #d25804;
+    font-size: 21px;
+    font-family: 'Noto Serif', serif;
+    font-weight: 600;
+}
+.main__carouselContainer {
+    overflow: hidden;
+}
+.main__carouselSlide {
+    display: flex;
+    justify-content: space-between;
+}
+.main__carousel > i {
+    position: absolute;
+    top: 50%;
+    font-size: 20px;
+    color: #666666;
+    cursor: pointer;
+    z-index: 10;
+}
+.main__carouselArrowLeft {
+    left: 25px;
+}
+.main__carouselArrowRight {
+    right: 25px;
+}
+.main__carousel > i::after {
+    content: "";
+    position: absolute;
+    top: -8.25px;
+    left: -12px;
+    right: -12px;
+    bottom: -8.25px;
+    background-image: linear-gradient(to bottom,#eaeaea, #cdcdcd);
+    border: 1px solid #6d6d6d;
+    border-radius: 3px;
+    z-index: -1;
+}
+.main__carousel > i:hover::after {
+    background-image: linear-gradient(to bottom,#c4c4c4, #c4c4c4);
+}
+.main__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: 14%;
+}
+.main__item img {
+    width: 100%;
+    object-fit: cover;
+}
+.main__item > .main__itemTitle {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #1b6aa7;
+}
+.main__item > .main__itemTitle:hover {
+    color: #d25804;
+    text-decoration-color: #d25804;
+}
+.main__item > .main__itemRating {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 10px;
+}
+.main__itemRating > .main__itemWhiteStar {
+    position: relative;
+    margin: 0;
+    height: 16px;
+    width: calc(20px * 5);
+    background-image: url("../imgs/whiteStar.png");
+    background-size: 20px 16px;
+    background-repeat: repeat-x;
+}
+.main__itemRating .main__itemYellowStar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    height: 16px;
+    width: 80%;
+    background-image: url("../imgs/yellowStar.png");
+    background-size: 20px 16px;
+    background-repeat: repeat-x;
+}
+.main__itemRating > .main__itemReview {
+    margin: 0;
+    font-size: 14px;
+    line-height: 14px;
+    color: #1b6aa7;
+}
+.main__item > .main__itemPrice {
+    margin: 0 0 10px 0;
+    font-size: 17px;
+    font-weight: 600;
+    color: #e53030;
+}
+.main__item > .main__itemAddToCart {
+    padding: 5px 0;
+    font-weight: 500;
+    background-image:linear-gradient(to bottom, #e7c869, #f0c14b);
+    border: 1px solid #835f00;
+    border-radius: 3px;
+}
+.main__item > .main__itemAddToCart:hover {
+    background-image: linear-gradient(to bottom, #e0ab34, #e0ab34);
+}
