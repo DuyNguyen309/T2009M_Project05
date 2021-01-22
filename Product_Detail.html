@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Product Detail</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="libs/bootstrap_v5/css/bootstrap.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="libs/fontawesome/css/all.css">
+    <link rel='stylesheet prefetch' href='https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css'>
+    <link rel="stylesheet" href="css/product_detail.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/recommended_product.css">
+</head>
+<body>
+<section class="section-body">
+    <div style="padding: 20px">
+        <div class="main-body">
+            <div class="main-body-content">
+                <div class="main-body-left">
+                    <div class="img-detail fade">
+                        <img src="imgs/fan_img_01.jpg" style="max-width: 100%; padding: 20px">
+                    </div>
+                    <div class="img-detail fade">
+                        <img src="imgs/fan_img_02.jpg" style="max-width: 100%; padding: 20px">
+                    </div>
+                    <div style="text-align:center">
+                        <span class="dot" onclick="currentSlide(0)"></span>
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                    </div>
+                </div>
+                <div class="main-body-right">
+                    <div class="content-detail" id="productDetail">
+                        <p><strong style="font-size: 24px;text-align: justify">Prominence Home 80029-01 Alvina Led Globe Light Hugger/Low Profile Ceiling Fan, 42 inches, Satin Nickel</strong></p>
+                        <div class="star-rating" style="width: 100%">
+                            <p style="margin: 0"><a href="#" style="text-decoration: none"><strong style="font-size: 14px">Visit the Prominence Home Store</strong></a></p>
+                            <div class="stars">
+                                <div class="star_outside">
+                                    <div class="star_inside" style="width: 75%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <p><a href="#" style="text-decoration: none"><strong>Another</strong></a></p>
+                        <div class="line"></div>
+                        <table style="max-width: 100%; line-height: 2.0" id="table_information">
+
+                        </table>
+                        <div class="line"></div>
+                        <div class="infor-product">
+                            <span><strong>About this item</strong></span>
+                            <ul style="text-align: justify">
+                                <li>LOW PROFILE DESIGN: Hugger ceiling fan, built for rooms where extra space is needed</li>
+                                <li>SMALL TO MEDIUM SIZED ROOMS: Perfect for rooms around 350 square feet such as living rooms, bedrooms, dining rooms or family rooms.</li>
+                                <li>QUIET, REVERSIBLE MOTOR: Conveniently quiet, 3 speed - reversible motor. Can be run in the winter to aid in rotating warm air and cutting down on energy costs.</li>
+                                <li>TWO-SIDED CEILING FAN BLADES: Get the perfect finish match with our reversible ceiling fan blades. Each side has a unique finish.</li>
+                                <li>FLUSH MOUNT: Two piece CRS hugger mounting system included.</li>
+                                <li>PULL-CHAINS INCLUDED: Included for quick and easy on/off adjustments. This fan is also compatible with universal ceiling fan remote controls.</li>
+                                <li>FROSTED OPAL GLOBE LIGHT: One A15 /E26 (included) with purchase.</li>
+                                <li>HANGING MEASUREMENTS: This fan measures 14. 49 in from ceiling to bottom of fan.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-body-ads">
+                <img class="imgProduct_ads" src="imgs/ads_img.jpeg" style="width: 100%">
+            </div>
+        </div>
+        <div class="line"></div>
+        <div class="more-product">
+            <h2 style="font-size: 24px">Get instant recommendations</h2>
+            <div class="get-instant">
+                <div class="main__container">
+                    <div class="main__carousel">
+                        <h3>Top Sellers</h3>
+                        <div class="main__carouselContainer">
+                            <div class="main__carouselSlide" id="recommended">
+                            </div>
+                        </div>
+                        <i class="fas fa-chevron-left main__carouselArrowLeft"></i>
+                        <i class="fas fa-chevron-right main__carouselArrowRight"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="line"></div>
+        <div class="product_review">
+            <div class="customer_review" style="margin-bottom: 20px">
+                <h2 style="font-size: 24px; font-weight: 700">Customer reviews</h2>
+                <div>
+                    <div style="display: flex;align-items: center; margin-bottom: 10px">
+                        <div class="star_outside" id="return_inside">
+<!--                            <div class="star_inside" style="width: 70%"></div>-->
+                        </div>
+                        <span style="font-size: 16px; padding-left: 20px"><span id="index_stars"></span> out of 5</span>
+                    </div>
+                    <div class="box_stars_rv" id="recommendedStar">
+<!--                        <table>-->
+<!--                            <td class="customer_rv_tb"><span>5 stars</span></td>-->
+<!--                            <td>-->
+<!--                                <div class="a-metter" role="progressbar" aria-valuenow="33%">-->
+<!--                                    <div class="a-metter-bar" style="width: 33%"></div>-->
+<!--                                </div>-->
+<!--                            </td>-->
+<!--                            <td class="customer_rv_tb"><span class="percent_rv">33%</span></td>-->
+<!--                        </table>-->
+                    </div>
+                    <div class="calc_star">
+                        <p>To calculate the overall star rating and percentage breakdown by star, we don’t use a simple average. Instead, our system considers things like how recent a review is and if the reviewer bought the item on Amazon. It also analyzes reviews to verify trustworthiness.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="top_review">
+                <h2 style="font-size: 24px; font-weight: 700">Top reviews from the Further</h2>
+                <div class="top_comment">
+                    <div class="customer_comment">
+                        <div class="acc_customer">
+                            <i class="fas fa-user-circle" style="font-size: 28px"></i>
+                            <span class="customer_name">Unknow</span>
+                        </div>
+                        <div class="customer_rating">
+                            <div class="starWhite_customer">
+                                <div class="starYellow_customer"></div>
+                            </div>
+                            <div class="most_review">
+                                <span><strong>Looks good, simple install but not the remote pictured</strong></span>
+                            </div>
+                        </div>
+                        <div class="content_review">
+                            <span>The install was pretty simple and it looked great - the pictures on Amazon are misleading for the remote actually received. They look totally different.</span>
+                        </div>
+                        <div class="button_for_customer">
+                            <div class="button_helpful">
+                                <span class="item_button"><a href="#" class="real_button" style="color: black">Helpful</a></span>
+                                <span class="item_button">|</span>
+                                <span class="item_button">Report abuse</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="customer_comment">
+                        <div class="acc_customer">
+                            <i class="fas fa-user-circle" style="font-size: 28px"></i>
+                            <span class="customer_name">Unknow</span>
+                        </div>
+                        <div class="customer_rating">
+                            <div class="starWhite_customer">
+                                <div class="starYellow_customer"></div>
+                            </div>
+                            <div class="most_review">
+                                <span><strong>Nice looking but wish light was brighter</strong></span>
+                            </div>
+                        </div>
+                        <div class="content_review">
+                            <span>It's a nice fan however it only lights up the middle of the room straight down and not the corners of the room. Also the color of the light is not very bright. I think I would like it better on a higher ceiling with a brighter light. I like the remote option and the look of this fan.</span>
+                        </div>
+                        <div class="button_for_customer">
+                            <div class="button_helpful">
+                                <span class="item_button"><a href="#" class="real_button" style="color: black">Helpful</a></span>
+                                <span class="item_button">|</span>
+                                <span class="item_button">Report abuse</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="customer_comment">
+                        <div class="acc_customer">
+                            <i class="fas fa-user-circle" style="font-size: 28px"></i>
+                            <span class="customer_name">Unknow</span>
+                        </div>
+                        <div class="customer_rating">
+                            <div class="starWhite_customer">
+                                <div class="starYellow_customer"></div>
+                            </div>
+                            <div class="most_review">
+                                <span><strong>REMOTE IS INCORRECTLY ADVERTISED</strong></span>
+                            </div>
+                        </div>
+                        <div class="content_review">
+                            <span>1. But the Fan blades have one side that is good. (the wooden side) and the steel side is cheap and has bubbles.<br/>
+                                2. The Remote shown in images is NOT The one that comes with it. What a JOKE.
+                            </span>
+                        </div>
+                        <div class="button_for_customer">
+                            <div class="button_helpful">
+                                <span class="item_button"><a href="#" class="real_button" style="color: black">Helpful</a></span>
+                                <span class="item_button">|</span>
+                                <span class="item_button">Report abuse</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+<script>
+    var slideIndex;
+    function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("img-detail");
+        var dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+
+        slides[slideIndex].style.display = "block";
+        dots[slideIndex].className += " active";
+        slideIndex++;
+    }
+
+    showSlides(slideIndex = 0);
+
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+</script>
+<script type="text/javascript" src="js/recommended-product.js"></script>
+<script type="text/javascript" src="js/recommended_stars.js"></script>
+<script type="text/javascript" src="js/product_infor.js"></script>
+</html>
